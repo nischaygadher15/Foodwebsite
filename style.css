@@ -246,7 +246,7 @@ nav
 
 .sec-three-title
 {
-    font-size: 80px;
+    font-size: 50px;
     color:#21243d;
     font-weight: bold;
     padding: 50px 0 0 0;
@@ -310,4 +310,131 @@ nav
 
 /* Section Five Start Here */
 
+.sec-six-title
+{
+    font-size: 50px;
+    font-weight: bolder;
+    color:#21243d;
+    padding: 50px 0 0 0;
+}
 
+.sec-five-text 
+{
+    font-size: 16px;
+    color:#21243d;
+    padding: 30px 0 40px 0;
+}
+
+
+
+/* Section Five Stops Here */
+
+
+
+/* Section Six Start Here */
+
+#sec-six
+{
+    /* height: 700px; */
+    background-image: linear-gradient(rgb(33, 36, 61, 0.8), rgb(33, 36, 61, 0.8)), url("./Images/sec-six-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.sec-six-main
+{
+    padding: 100px 0;
+}
+
+.sec-six-img
+{
+    width: 25%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.sex-six-text
+{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.sec-six-name
+{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Section Six Stops Here */
+
+
+
+/* Section Seven Start Here */
+
+#sec-seven
+{
+    /* height: 700px; */
+    background-color: #ffd17e;
+    padding: 100px 0;
+}
+
+.sec-seven-main
+{
+    padding: 100px 0;
+}
+
+.sec-seven-title
+{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    color:#21243d;
+}
+
+
+.sex-seven-text
+{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: center;
+    color:#21243d;
+    padding: 80px 0;
+}
+
+
+#myEmail
+{
+    width: 45%;
+    color:#21243d;
+    font-size: 18px;
+    padding: 13px 18px;
+    border-radius: 30px;
+    border: none;
+}
+
+
+.subscribeBtn
+{
+    background-color: #21243d;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 13px 20px;
+    margin: 0 0 0 -50px;
+}
+
+.emailBox
+{
+    text-align: center;
+}
