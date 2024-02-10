@@ -87,6 +87,7 @@ header
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 999;
     /* opacity: 0; */
 }
 
@@ -172,8 +173,10 @@ nav
 #sec-two
 {
     background-color: #21243d;
-    /* height: 700px; */
+    position: relative;
+    overflow: hidden;
 }
+
 
 
 
@@ -225,6 +228,53 @@ nav
     text-align: center;
 }
 
+.s2c1, .s2c2, .s2zz1, .s2zz2, .s2hd, .s2vd,
+.s3c1, .s3c2, .s3zz1, .s3zz2, .s3hd, .s3vd1, .s3vd2,
+.s4c1, .s4c2, .s4zz1, .s4zz2, .s4hd1, .s4hd2
+{
+    position: absolute;
+    transform: scale(0.8);
+}
+
+.s2c1
+{
+    bottom: 15%;
+    left: -5%;
+}
+
+.s2c2
+{
+    top: -5%;
+    right: -5%;
+}
+
+
+.s2zz1
+{
+    top: 20%;
+    left: 10%;;
+}
+
+
+.s2zz2
+{
+    bottom: 10%;
+    right: 0;
+}
+
+
+.s2hd
+{
+    top: -2%;
+    left: 20%;
+}
+
+.s2vd
+{
+    top: 40%;
+    right: -1.5%;
+}
+
 
 /* Section Two Stops Here */
 
@@ -236,11 +286,15 @@ nav
 #sec-three, #sec-five
 {
     background-color: #ffd17e;
-    /* height: 700px; */
     padding: 0 0 50px 0;
+    position: relative;
+    overflow: hidden;
 }
 
-
+#sec-three
+{
+    padding: 100px 0;
+}
 
 .sec-three-main
 {
@@ -253,6 +307,11 @@ nav
 {
     width: 100%;
     border-radius: 50%;
+}
+
+.col-40
+{
+    z-index: 1;
 }
 
 
@@ -272,6 +331,38 @@ nav
 }
 
 
+.s3c1
+{
+    top: 15%;
+    left: 10%;
+    z-index: 0;
+}
+
+.s3c2
+{
+    bottom: 10%;
+    right: -5%;
+}
+
+
+.s3zz1
+{
+    top: 20%;
+    left: 55%;;
+}
+
+
+.s3vd1
+{
+    bottom: 5%;
+    left: 5%;
+}
+
+.s3vd2
+{
+    top: 5%;
+    right: 5%;
+}
 
 /* Section Three Stops Here */
 
@@ -282,8 +373,9 @@ nav
 
 #sec-four
 {
-    /* height: 700px; */
     background-color: #21243d;
+    position: relative;
+    overflow: hidden;
 }
 
 .sec-four-main
@@ -314,6 +406,48 @@ nav
 {
     font-size: 40px;
 }
+
+
+.s4c1
+{
+    top: 5%;
+    right: 5%;
+}
+
+.s4c2
+{
+    bottom: -10%;
+    left: 25%;
+}
+
+
+.s4zz1
+{
+    top: 25%;
+    left: 8%;
+}
+
+
+.s4zz2
+{
+    bottom: 10%;
+    right: 5%;
+}
+
+
+.s4hd1
+{
+    top: 5%;
+    left: 8%;
+}
+
+.s4hd2
+{
+    bottom: 5%;
+    right: 30%;
+}
+
+
 
 
 /* Section Four Stops Here */
