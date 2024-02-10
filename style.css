@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container
+{
+    padding: 0 100px;
+}
+
+.row
+{
+    display: flex;
+}
+
+.jct
+{
+    justify-content: space-between;
+}
+
+.ali
+{
+    align-items: center;
+}
+
+.flr
+{
+    flex-direction: row-reverse;
+}
+.col-100
+{
+    width: 100%;
+}
+
+.col-50
+{
+    width: 50%;
+}
+
+.col-40
+{
+    width: 38%;
+}
+
+.col-30
+{
+    width: 30%;
+}
+
+.col-25
+{
+    width: 28%;
+}
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Section one Start Here */
+
+#sec-one
+{
+    /* height: 700px; */
+    background-image: url('./Images/sec-one-Bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* border: 1px solid red; */
+}
+
+header
+{
+    background-color: #21243d;
+}
+
+.logo
+{
+    padding: 10px 0;
+}
+
+nav
+{
+    margin: auto 0;
+}
+
+.nav-bar li
+{
+    display: inline;
+    list-style-type: none;
+    margin: 0 30px ;
+    padding: 20px 0;
+    /* border: 1px solid red; */
+}
+
+.nav-bar li a
+{
+    padding: 20px 10px;
+    /* border: 1px solid blue; */
+}
+
+.nav-bar li a
+{
+    text-decoration: none;
+}
+
+.searchLogo
+{
+    color:#ffffff;
+}
+
+.searchLogo
+{
+    font-size: 18px;
+    margin: auto 0;
+}
+
+.sec-one-main
+{
+    padding: 100px 0;
+}
+
+.sec-one-title
+{
+    font-size: 80px;
+    font-weight: 700;
+    padding: 30px 0 0 0;
+}
+
+
+.sec-one-text
+{
+    font-size: 23px;
+    padding: 50px 0 0px 0;
+}
+
+.btnBlock
+{
+    padding: 50px 0;
+}
+
+.orderNow
+{
+    background-color: #21243d;
+    padding: 15px 50px;
+    border-radius: 25px;
+}
+
+/* Section one Stops Here */
+
+
+
+/* Section Two Start Here */
+
+
+#sec-two
+{
+    background-color: #21243d;
+    /* height: 700px; */
+}
+
+
+
+.sec-two-main
+{
+    padding: 80px 0;
+}
+
+.sec-two-title
+{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    /* padding: 50px 0 0 0; */
+}
+
+
+.sec-two-text
+{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 0 50px 0;
+}
+
+
+.titlesBlock
+{
+    padding: 0 100px;
+}
+
+.titlesImg
+{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.titlesTitle
+{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.titlesText
+{
+    text-align: center;
+}
+
+
+/* Section Two Stops Here */
+
+
+
+/* Section Three Start Here */
+
+
+#sec-three, #sec-five
+{
+    background-color: #ffd17e;
+    /* height: 700px; */
+    padding: 0 0 50px 0;
+}
+
+
+
+.sec-three-main
+{
+    justify-content: space-around;
+    padding: 100px 0;
+}
+
+
+.sec-three-tile
+{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.sec-three-title
+{
+    font-size: 80px;
+    color:#21243d;
+    font-weight: bold;
+    padding: 50px 0 0 0;
+}
+
+
+.sec-three-text
+{
+    color:#21243d;
+    padding: 30px 0 40px 0;
+}
+
+
+
+/* Section Three Stops Here */
+
+
+
+/* Section Four Start Here */
+
+
+#sec-four
+{
+    /* height: 700px; */
+    background-color: #21243d;
+}
+
+.sec-four-main
+{
+    padding: 100px 0;
+}
+
+.sec-four-tilesBlock
+{
+    padding: 50px 0;
+}
+
+.sec-four-tiles
+{
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    padding: 90px 0;
+}
+
+.sec-four-num, .sec-four-text
+{
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sec-four-text
+{
+    font-size: 40px;
+}
+
+
+/* Section Four Stops Here */
+
+
+
+/* Section Five Start Here */
+
+
