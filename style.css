@@ -230,7 +230,9 @@ nav
 
 .s2c1, .s2c2, .s2zz1, .s2zz2, .s2hd, .s2vd,
 .s3c1, .s3c2, .s3zz1, .s3zz2, .s3hd, .s3vd1, .s3vd2,
-.s4c1, .s4c2, .s4zz1, .s4zz2, .s4hd1, .s4hd2
+.s4c1, .s4c2, .s4zz1, .s4zz2, .s4hd1, .s4hd2,
+.s5c1, .s5c2, .s5zz, .s5hd, .s5vd,
+.s7c1, .s7c2, .s7zz1, .s7zz2, .s7hd, .s7vd
 {
     position: absolute;
     transform: scale(0.8);
@@ -456,7 +458,18 @@ nav
 
 /* Section Five Start Here */
 
-.sec-six-title
+.sec-five
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.sec-five-main
+{
+    margin: 50px 0;
+}
+
+.sec-five-title
 {
     font-size: 50px;
     font-weight: bolder;
@@ -469,6 +482,39 @@ nav
     font-size: 16px;
     color:#21243d;
     padding: 30px 0 40px 0;
+}
+
+
+.s5c1
+{
+    bottom: 5%;
+    left: 40%;
+}
+
+.s5c2
+{
+    top: 10%;
+    right: 10%;
+}
+
+
+.s5zz
+{
+    top: 15%;
+    left: 12%;;
+}
+
+
+.s5hd
+{
+    top: 5%;
+    left: 40%;
+}
+
+.s5vd
+{
+    bottom: 10%;
+    right: 5%;
 }
 
 
@@ -531,11 +577,14 @@ nav
     /* height: 700px; */
     background-color: #ffd17e;
     padding: 100px 0;
+    position: relative;
+    overflow: hidden;
 }
 
 .sec-seven-main
 {
-    padding: 100px 0;
+    padding: 50px 0 100px 0;
+    margin: 0 0 50px 0;
 }
 
 .sec-seven-title
@@ -584,6 +633,47 @@ nav
 {
     text-align: center;
 }
+
+
+.s7c1
+{
+    bottom: 5%;
+    left: 40%;
+}
+
+.s7c2
+{
+    top: 5%;
+    right: -5%;
+}
+
+
+.s7zz1
+{
+    top: 10%;
+    right: 20%;;
+}
+
+
+.s7zz2
+{
+    bottom: 20%;
+    left: 10%;
+}
+
+
+.s7hd
+{
+    top: 10%;
+    left: 5%;
+}
+
+.s7vd
+{
+    bottom: 10%;
+    right: 5%;
+}
+
 
 /* Section Seven Stops Here */
 
